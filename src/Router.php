@@ -21,7 +21,7 @@ class Router
 
         return match ($uri) {
             'seo' => 'Pages/seo',
-            'postagem' => 'Pages/postagem',
+            'posts' => 'Pages/posts',
             default => 'Pages/404'
         };
     }
