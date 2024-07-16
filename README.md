@@ -46,4 +46,5 @@ php -S localhost:8000
 * Access `http://localhost:8000` in your browser.
 * Routes:
   * `/` - Home
-  * `/postagens` - List all posts
+  * `/posts/{category}/{postSlug}` - get post based on category and slug
+  * `/404` - Not Found
